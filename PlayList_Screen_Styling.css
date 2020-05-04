@@ -1,0 +1,454 @@
+html{
+	background-color: rgb(12,16,39);
+	color: white;
+}
+
+.adjust-size{
+	display: inline-block;
+	display: flex;
+	color: white;
+}
+
+/*Navigation Bar*/
+
+.nav{
+	height: 15vh;
+    width: auto;
+    display: flex;
+}
+
+#icon{
+	height: 100px;
+    width: 100px;
+    margin: 0.2rem;
+    display: inline-block;
+}
+
+.icon-div{
+	display: inline-block;
+    height: 120%;
+    width: 10%;
+    margin-left: 1.8rem;
+    margin-top: 0.5rem;
+}
+
+.website-name{
+	color: white;
+	display: inline-block;
+	height: 80%;
+	width: 20%;
+	margin-top: 2rem;
+	letter-spacing: 1px;
+}
+
+.website-name span{
+	font-size: 1.3rem;
+}
+
+.favourite{
+	display: inline-block;
+    height: 30%;
+    width: 28%;
+    margin-top:2.5rem;
+}
+
+.favourite a{
+	color: white;
+	text-decoration: none;
+}
+
+.right-section{
+	
+	display: inline-block;
+	display: flex;
+	height: 100%;
+	width: 37%;
+	margin-top: 1rem;
+}
+
+.search-bar{
+	background-color: rgb(18,25,62);
+	margin: 1rem;
+	height: 35px;
+	width: 15rem;
+	border-radius: 0.8rem;
+}
+
+#search{
+	background-color: rgb(18,25,62);
+	border: none;
+	margin-left: 0.2rem;
+	color: white;
+}
+
+.form{
+	padding: 0.5rem;
+	display: flex;
+    justify-content: space-around;
+}
+
+.fa-search{
+	color:white;
+	padding: 0.1rem;
+}
+
+.fa-microphone{
+	color: white;
+	padding: 0.1rem;
+}
+
+.fa-bell{
+	color: white;
+}
+
+.bell-icon{
+	margin: 1.5rem;
+}
+
+.prof-pic img{
+	height: 5rem;
+	width: 5rem;
+	margin-left: 1rem;
+}
+
+
+/*------------------Main Section-------------------*/
+
+.main-content{
+	height: 62vh;
+    width: 65vw;
+    display: inline-block;
+    padding-top: 5vh;
+    overflow-y: scroll;
+}
+
+.main-content::-webkit-scrollbar{
+	width:0 !important;
+}
+
+
+#main{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 5vw;
+}
+
+.artist-details{
+	overflow: scroll;
+}
+
+.artist-details::-webkit-scrollbar{
+	width:0 !important;
+}
+
+.artist-desc{
+	height: 40vh;
+	width: 80%;
+	background-color: rgb(20,27,65);
+	display: flex;
+}
+
+.artist-img img{
+	height: 40vh;
+	width: 18vw;
+}
+
+
+.desc-title{
+	display: inline-block;
+	height: 5rem;
+	width: 20vw;
+	margin-left: 2vw;
+}
+
+.desc-title h2{
+	margin-bottom: 5px;
+}
+
+.followers{
+	display: inline-block;
+	margin-top: 25px;
+	height: 2rem;
+}
+
+.details span{
+	font-size: 13px;
+}
+
+.details{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+.play-now{
+	margin-left: 3vw;
+    margin-top: 30px;
+	display: inline-block;
+    height: 30px;
+    width: 10vw;
+    text-align: center;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(63,39,179) , rgb(191,71,222));
+}
+
+.play-now span{
+	padding: 5px;
+    display: inline-block;
+
+}
+
+.follow{
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 4vw;
+}
+
+.tracks{
+	margin-top: 10px;
+	margin-left: 3vw;
+}
+
+
+.song-details{
+	height: 60px;
+    width: 80%;
+    background-color: rgb(26,30,51);
+    margin-top: 25px;
+    display: flex;
+}
+
+.number{
+	margin-left: 1vw;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.image{
+	margin-left: 1vw;
+    margin-top: 7px;
+}
+
+.image img{
+	height: 45px;
+	width: 45px;
+	border-radius: 10%;
+}
+
+.song-detail{
+	display: inline-block;
+	height: 40px;
+	width: 30vw;
+	margin-left: 1vw;
+	margin-top: 10px;
+}
+
+.song-detail h4,p{
+	margin: 0;
+} 
+
+.fav{
+	margin-left: 2vw;
+	margin-top: 20px;
+}
+
+
+
+/*--------------Aside----------------*/
+
+
+.similar-artists{
+	margin-top: 15px;
+	display: inline-block;
+	height: 45vh;
+	width: 30vw;
+	float: right;
+}
+
+.sa-title{
+	display: flex;
+}
+
+.sa h2{
+	margin: 0;
+	display: inline-block;
+	width: 20vw;
+}
+
+.view-all span{
+	margin-top: 5px;
+	display: inline-block;
+}
+
+
+.songs-card{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.song-card{
+	display: flex;
+}
+
+.song-card-img img{
+	height: 70px;
+    width: 70px;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+.song-card-name{
+	width: 15vw;
+	margin-left: 1.5vw;
+}
+
+.recently-played{
+	display: inline-block;
+	height: 22vh;
+	width: 30vw;
+	float: right;
+	overflow: scroll;
+}
+
+.recently-played::-webkit-scrollbar{
+	width:0 !important;
+}
+
+.rp-card{
+	display: flex;
+	margin-top: 20px;
+}
+
+.rp-number{
+	margin-left: 1vw;
+	margin-top: 10px;
+}
+
+.rp-image{
+	margin-left: 1vw;
+}
+
+.rp-image img{
+	height: 60px;
+	width: 60px;
+	border-radius: 10%;
+}
+
+.rp-name{
+	display: inline-block;
+	width: 14vw;
+	margin-top: 10px;
+	margin-left: 1vw;
+}
+
+.aside-section{
+	display: flex;
+	flex-direction: column;
+	float: right;
+}
+
+
+
+
+
+/*--------------Footer---------------*/
+
+.footer{
+	width: 100vw;
+	height: 12vh;
+	background-color: rgb(40,40,40);
+	margin-left:  -8px;
+	margin-top: 23px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.song-name{
+	display: flex;
+}
+
+.song-img img{
+	height: 50px;
+    width: 50px;
+    margin: 18px;
+}
+
+.sng-name{
+	margin-top: 25px;
+}
+
+.icons{
+	margin-left: 20px;
+    margin-top: 20px;
+}
+
+.controls{
+	height: 10px;
+	width: 30vw;
+	margin-top: 20px;
+	margin-left: 5vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.timer{
+	display: flex;
+	margin-top: 10px;
+}
+
+.bar{
+	height: 3px;
+    width: 35vw;
+    background-color: rgb(64,64,64);
+    margin-top: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    border-radius: 2px;
+}
+
+.present{
+	height: inherit;
+	width: 25%;
+	background-color: rgb(57,233,143);
+	border-radius: 2px;
+}
+
+.circle{
+	height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -4px;
+}
+
+.vol-bar{
+	height: 3px;
+	width: 6vw;
+	background-color: rgb(64,64,64);
+	margin-top: 36px;
+	display: flex;
+	border-radius: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.tot-vol{
+	height: inherit;
+	width: 40%;
+	background-color: rgb(57,233,143);
+	border-radius: 2px;
+}
+
+.sound{
+	display: flex;
+}
+
+
+.last{
+	margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
